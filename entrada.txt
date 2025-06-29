@@ -1,0 +1,17 @@
+program principal
+  integer :: i
+  integer :: j
+  integer :: valor
+  integer :: dato
+    n = 2
+    total = 3
+        do x = 1, total - 2
+            do y = 1, total - x - 1
+                z = total - x - y
+                if (dato >= 10 .and. dato <= 20) then
+                    print *, 'Hola mundo'
+                end if
+            end do
+            total = total + 1
+        end do
+end program principal
